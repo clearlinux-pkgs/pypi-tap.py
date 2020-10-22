@@ -4,7 +4,7 @@
 #
 Name     : tap.py
 Version  : 3.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/3e/56/a3d6bd61d8238e78f8b48295a1bc69c30a5c21a8bb5b1ebd685ce3cffef0/tap.py-3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3e/56/a3d6bd61d8238e78f8b48295a1bc69c30a5c21a8bb5b1ebd685ce3cffef0/tap.py-3.0.tar.gz
 Summary  : Test Anything Protocol (TAP) tools
@@ -21,14 +21,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : more-itertools
 
 %description
-tappy
-=====
-[![PyPI version][pypishield]](https://pypi.python.org/pypi/tap.py)
-[![BSD license][license]](https://raw.githubusercontent.com/python-tap/tappy/master/LICENSE)
-[![Linux status][travis]](https://travis-ci.org/python-tap/tappy)
-[![OS X status][travisosx]](https://travis-ci.org/python-tap/tappy)
-[![Windows status][appveyor]](https://ci.appveyor.com/project/mblayman/tappy)
-[![Coverage][coverage]](https://codecov.io/github/python-tap/tappy)
+tappy is a set of tools for working with the `Test Anything Protocol (TAP)
 
 %package bin
 Summary: bin components for the tap.py package.
@@ -75,15 +68,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1587497549
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1603405462
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
