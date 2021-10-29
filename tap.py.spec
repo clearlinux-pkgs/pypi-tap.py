@@ -4,7 +4,7 @@
 #
 Name     : tap.py
 Version  : 3.0
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/3e/56/a3d6bd61d8238e78f8b48295a1bc69c30a5c21a8bb5b1ebd685ce3cffef0/tap.py-3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3e/56/a3d6bd61d8238e78f8b48295a1bc69c30a5c21a8bb5b1ebd685ce3cffef0/tap.py-3.0.tar.gz
 Summary  : Test Anything Protocol (TAP) tools
