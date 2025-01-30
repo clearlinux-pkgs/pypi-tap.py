@@ -7,7 +7,7 @@
 #
 Name     : pypi-tap.py
 Version  : 3.2.1
-Release  : 32
+Release  : 33
 URL      : https://files.pythonhosted.org/packages/37/d0/28b0c6c7fe464f70664f123e9f64f36acaf92767af98c1a82df6e2b49f41/tap_py-3.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/37/d0/28b0c6c7fe464f70664f123e9f64f36acaf92767af98c1a82df6e2b49f41/tap_py-3.2.1.tar.gz
 Summary  : Test Anything Protocol (TAP) tools
@@ -57,6 +57,7 @@ Summary: python3 components for the pypi-tap.py package.
 Group: Default
 Requires: python3-core
 Provides: pypi(tap.py)
+Provides: pypi(tap_py)
 
 %description python3
 python3 components for the pypi-tap.py package.
@@ -74,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1737993529
+export SOURCE_DATE_EPOCH=1738270143
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
