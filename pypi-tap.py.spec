@@ -7,7 +7,7 @@
 #
 Name     : pypi-tap.py
 Version  : 3.2.1
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/37/d0/28b0c6c7fe464f70664f123e9f64f36acaf92767af98c1a82df6e2b49f41/tap_py-3.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/37/d0/28b0c6c7fe464f70664f123e9f64f36acaf92767af98c1a82df6e2b49f41/tap_py-3.2.1.tar.gz
 Summary  : Test Anything Protocol (TAP) tools
